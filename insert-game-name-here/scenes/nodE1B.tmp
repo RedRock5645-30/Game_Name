@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bio24dstt8oax"]
+
+[ext_resource type="PackedScene" uid="uid://pr6pn6ii20nc" path="res://scenes/classmate.tscn" id="2_2uho6"]
+
+[node name="world" type="Node2D"]
+
+[node name="classmate" parent="." instance=ExtResource("2_2uho6")]

@@ -1,0 +1,44 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://blphlv8fka5i5"]
+
+[ext_resource type="Texture2D" uid="uid://cwhgh5jxq6lo6" path="res://art/Duck Sprites.bmp" id="1_spwbu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0uppg"]
+atlas = ExtResource("1_spwbu")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ffy1c"]
+atlas = ExtResource("1_spwbu")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14ary"]
+atlas = ExtResource("1_spwbu")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50voh"]
+atlas = ExtResource("1_spwbu")
+region = Rect2(512, 0, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0uppg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ffy1c")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14ary")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_50voh")
+}],
+"loop": true,
+"name": &"Talking",
+"speed": 5.0
+}]

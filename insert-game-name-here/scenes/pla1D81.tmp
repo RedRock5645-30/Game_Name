@@ -1,0 +1,84 @@
+[gd_scene load_steps=12 format=3 uid="uid://consdq00h2aqf"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_dm765"]
+[ext_resource type="Texture2D" uid="uid://cwhgh5jxq6lo6" path="res://art/Duck Sprites.bmp" id="2_32vwp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2iv0o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11tn7"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uksqu"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsqk8"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7u87f"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2s244"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgr41"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_he2p2"]
+atlas = ExtResource("2_32vwp")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rkecs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11tn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uksqu")
+}],
+"loop": true,
+"name": &"attack_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsqk8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7u87f")
+}],
+"loop": true,
+"name": &"attack_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2s244")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgr41")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_he2p2")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_dm765")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2iv0o")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 1)
+sprite_frames = SubResource("SpriteFrames_rkecs")
+animation = &"idle"

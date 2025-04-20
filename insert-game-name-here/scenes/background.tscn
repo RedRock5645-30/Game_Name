@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3 uid="uid://bv3sowdatq7yl"]
+
+[ext_resource type="Script" path="res://scenes/visual_scene.gd" id="1_02cyb"]
+[ext_resource type="Texture2D" uid="uid://b57kil7dj24xp" path="res://art/dark classroom.jpg" id="1_d6tss"]
+[ext_resource type="PackedScene" uid="uid://dx704gevwdem5" path="res://scenes/Novel_Character.tscn" id="2_npmiw"]
+[ext_resource type="PackedScene" uid="uid://tfg5tm7pw1og" path="res://scenes/dialogue_ui.tscn" id="3_4anie"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_02cyb")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+offset = Vector2(0, -200)
+transform = Transform2D(1, 0, 0, 1, 0, -200)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_right = 1.687
+anchor_bottom = 2.282
+offset_left = -1.0
+offset_right = -1320.04
+offset_bottom = -1024.56
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource("1_d6tss")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Novel_Character" parent="CanvasLayer2/Control" instance=ExtResource("2_npmiw")]
+position = Vector2(35, -304)
+
+[node name="Dialogue_Box" type="PanelContainer" parent="CanvasLayer2"]
+custom_minimum_size = Vector2(0, 100)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -277.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="DialogueUI" parent="CanvasLayer2" instance=ExtResource("3_4anie")]
