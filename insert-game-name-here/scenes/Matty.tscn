@@ -7,7 +7,7 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3j2af"]
 shader = ExtResource("2_vmkk1")
 shader_parameter/target_color = Color(1, 0.760784, 0.054902, 1)
-shader_parameter/replace_color = Color(0.988512, 0.667119, 0.731992, 1)
+shader_parameter/replace_color = Color(1, 0.976471, 0.27451, 1)
 shader_parameter/tolerance = 0.05
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_prgu4"]
