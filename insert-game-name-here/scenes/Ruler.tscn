@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8axjvjpynq82"]
+
+[ext_resource type="Script" path="res://scripts/bullet.gd" id="1_s8pim"]
+[ext_resource type="Texture2D" uid="uid://bqkorpx26uh3q" path="res://art/Ruler_pixel.png" id="2_h8cso"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bd3p7"]
+size = Vector2(21, 78)
+
+[node name="Ruler" type="Area2D"]
+visibility_layer = 9
+z_index = 3
+script = ExtResource("1_s8pim")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.5, -1)
+shape = SubResource("RectangleShape2D_bd3p7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_h8cso")
+
+[node name="Timer" type="Timer" parent="."]

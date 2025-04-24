@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://bio24dstt8oax"]
+[gd_scene load_steps=7 format=3 uid="uid://bio24dstt8oax"]
 
 [ext_resource type="PackedScene" uid="uid://pr6pn6ii20nc" path="res://scenes/Noelle.tscn" id="1_0h0lp"]
 [ext_resource type="PackedScene" uid="uid://b6hf07ey68uj2" path="res://scenes/Matty.tscn" id="1_uk7cc"]
 [ext_resource type="PackedScene" uid="uid://consdq00h2aqf" path="res://scenes/player.tscn" id="3_nxnoh"]
 [ext_resource type="AudioStream" uid="uid://dgrr2m8awooxs" path="res://art/Visual novel game music boss 1 sample 3.mp3" id="4_bo2cj"]
 [ext_resource type="Script" path="res://scripts/Fight_Music.gd" id="5_e7kyb"]
+[ext_resource type="PackedScene" uid="uid://2jwlara0y10e" path="res://scenes/math_teach.tscn" id="6_a0yfs"]
 
 [node name="overworld" type="Node2D"]
 
@@ -20,3 +21,6 @@ position = Vector2(238, 211)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_bo2cj")
 script = ExtResource("5_e7kyb")
+
+[node name="MathTeach" parent="." instance=ExtResource("6_a0yfs")]
+position = Vector2(711, 267)
