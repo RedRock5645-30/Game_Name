@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://qfnnnci0es7g"]
+
+[ext_resource type="Texture2D" uid="uid://khqcvju1xucv" path="res://art/Triangle Ruler.png" id="1_4jfht"]
+[ext_resource type="Script" path="res://scripts/bullet.gd" id="1_oxwg6"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_oxwg6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(50, 50)
+texture = ExtResource("1_4jfht")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(8, 8, 97, 8, 8, 67)
+
+[node name="Timer" type="Timer" parent="."]

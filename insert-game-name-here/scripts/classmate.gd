@@ -7,11 +7,10 @@ var speed = 400
 
 func _ready():
 #	player = get_parent().get_node("player")
-	print("Classmate sees player as:", player.name)
+	pass
 
 func _process(delta):
 	if not player:
-		print("BADDD")
 		return
 	if global_position.distance_to(player.global_position)>60:
 		var direction = (player.global_position - global_position).normalized()

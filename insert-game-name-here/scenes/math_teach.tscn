@@ -51,5 +51,5 @@ frame_progress = 0.282715
 gizmo_extents = 73.1
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.25
 autostart = true

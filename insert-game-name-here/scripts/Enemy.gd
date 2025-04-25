@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
-@export var Ruler  = ResourceLoader.load("res://scenes/Ruler.tscn")
+@export var Ruler  = ResourceLoader.load("res://scenes/Bullets/Ruler.tscn")
+@export var TriRuler = ResourceLoader.load("res://scenes/Bullets/TriangleRuler.tscn")
 @onready var timer = $Timer
 
 func _ready() -> void:
@@ -11,8 +12,16 @@ func _physics_process(delta: float):
 		shoot()
 
 func shoot():
-	var b = Ruler.instantiate()
-	owner.add_child(b)		
+	var rand_b = randi_range(1, 2)
+	var b
+	match rand_b:
+		1:
+			b = Ruler.instantiate()
+		2:
+			b = TriRuler.instantiate()
+			
+	
+	owner.add_child(b)
 	b.transform = $Muzzle.global_transform
 		
 
