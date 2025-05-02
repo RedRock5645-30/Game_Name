@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bo7aadut368hw"]
+
+[ext_resource type="Script" path="res://scripts/slice_pie.gd" id="1_py5rv"]
+[ext_resource type="Texture2D" uid="uid://c5ywu2fydoevu" path="res://art/SlicePie.png" id="1_tdbl2"]
+
+[node name="SlicePie" type="Area2D"]
+script = ExtResource("1_py5rv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tdbl2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(35, -16, -1, -6, -3, 6, 36, 11)

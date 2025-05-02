@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtk6xsf6x5e7y"]
+
+[ext_resource type="Script" path="res://scripts/Pie.gd" id="1_u241v"]
+[ext_resource type="Texture2D" uid="uid://ktg6o1j2cppx" path="res://art/WholePie.png" id="2_kqsg6"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wm4p5"]
+radius = 24.0
+height = 64.0
+
+[node name="WholePie" type="Area2D"]
+script = ExtResource("1_u241v")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_kqsg6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_wm4p5")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true

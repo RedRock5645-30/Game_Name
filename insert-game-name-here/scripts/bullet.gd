@@ -1,5 +1,5 @@
 extends Area2D
-class_name bullet
+class_name Bullet
 
 var speed = 750
 var direction: Vector2

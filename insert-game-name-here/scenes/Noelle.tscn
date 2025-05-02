@@ -86,11 +86,10 @@ script = ExtResource("1_pi1iu")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 top_level = true
 material = SubResource("ShaderMaterial_3j2af")
-position = Vector2(210, 11)
+position = Vector2(0, 1)
 sprite_frames = SubResource("SpriteFrames_rp4n1")
 animation = &"walk_left"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(209, 12)
 shape = SubResource("CircleShape2D_vu866")
 one_way_collision_margin = 0.0
