@@ -1,4 +1,6 @@
-[gd_scene load_steps=21 format=4 uid="uid://tfg5tm7pw1og"]
+[gd_scene load_steps=22 format=4 uid="uid://tfg5tm7pw1og"]
+
+[ext_resource type="Script" uid="uid://bcpxy6ti5e5js" path="res://scripts/dialogue_ui.gd" id="1_dwk8m"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_is0u3"]
 content_margin_left = 20.0
@@ -1818,6 +1820,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_hocpg")
+script = ExtResource("1_dwk8m")
 
 [node name="Dialogue_Box" type="PanelContainer" parent="."]
 material = SubResource("ShaderMaterial_ag0rf")
@@ -1831,10 +1834,9 @@ offset_top = -277.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Dialogue_Box"]
+[node name="DialogueLine" type="RichTextLabel" parent="Dialogue_Box"]
 layout_mode = 2
 bbcode_enabled = true
-text = "I wanna cryyyyyyyy [shake]HELP ME [/shake]"
 
 [node name="SpeakerControl" type="Control" parent="."]
 custom_minimum_size = Vector2(200, 50)
@@ -1852,20 +1854,20 @@ scale = Vector2(0.722, 1)
 color = Color(0.636811, 0.535063, 0.865176, 1)
 polygon = PackedVector2Array(0, 0, 400, 0, 450, 75, 0, 75)
 
-[node name="Label" type="Label" parent="SpeakerControl"]
+[node name="SpeakerName" type="Label" parent="SpeakerControl"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -60.0
-offset_top = -17.5
-offset_right = 12.0
-offset_bottom = 17.5
+offset_left = -153.0
+offset_top = -24.5
+offset_right = 102.0
+offset_bottom = 62.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "Name
+text = "
 "
 label_settings = SubResource("LabelSettings_ybtt4")
 

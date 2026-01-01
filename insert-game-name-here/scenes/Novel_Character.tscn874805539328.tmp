@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dx704gevwdem5"]
+
+[ext_resource type="Script" uid="uid://km4vya4fjuvw" path="res://scripts/novel_character.gd" id="1_liec8"]
+[ext_resource type="Texture2D" uid="uid://6yc5c5uu7d14" path="res://art/Matty.png" id="2_spe05"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_capsj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_spe05")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Novel_Character" type="Node2D"]
+script = ExtResource("1_liec8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1387, -14322.001)
+scale = Vector2(45, 45)
+sprite_frames = SubResource("SpriteFrames_capsj")
+speed_scale = 3.875

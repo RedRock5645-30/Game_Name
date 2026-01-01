@@ -1,8 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://b6hf07ey68uj2"]
+[gd_scene load_steps=8 format=3 uid="uid://b6hf07ey68uj2"]
 
-[ext_resource type="Script" path="res://scenes/Matty.gd" id="1_j0pav"]
-[ext_resource type="Shader" path="res://scripts/colorswap.gdshader" id="2_vmkk1"]
-[ext_resource type="Texture2D" uid="uid://cwhgh5jxq6lo6" path="res://art/Duck Sprites.bmp" id="3_1iatg"]
+[ext_resource type="Script" uid="uid://dc63qw8v54kc7" path="res://Matty.gd" id="1_j0pav"]
+[ext_resource type="Shader" uid="uid://owmkrkhuc0i7" path="res://scripts/colorswap.gdshader" id="2_vmkk1"]
+[ext_resource type="Texture2D" uid="uid://b0hwvsnglnl1u" path="res://art/NoelleLeftWalk1.png" id="3_ufbru"]
+[ext_resource type="Texture2D" uid="uid://c74oh0jb4ee7j" path="res://art/NoelleLeftWalk2.png" id="4_w3cuy"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3j2af"]
 shader = ExtResource("2_vmkk1")
@@ -10,70 +11,17 @@ shader_parameter/target_color = Color(1, 0.760784, 0.054902, 1)
 shader_parameter/replace_color = Color(1, 0.976471, 0.27451, 1)
 shader_parameter/tolerance = 0.05
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_prgu4"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_nwjfl"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(512, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_enej3"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(128, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_exd1j"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_x8ipi"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(384, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_nlr3w"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_1u8op"]
-atlas = ExtResource("3_1iatg")
-region = Rect2(256, 0, 128, 128)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_rp4n1"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_kubwg"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_prgu4")
+"texture": ExtResource("3_ufbru")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_nwjfl")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_enej3")
+"texture": ExtResource("4_w3cuy")
 }],
 "loop": true,
-"name": &"idle",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_exd1j")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_x8ipi")
-}],
-"loop": true,
-"name": &"walk_left",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_nlr3w")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1u8op")
-}],
-"loop": true,
-"name": &"walk_right",
+"name": &"default",
 "speed": 5.0
 }]
 
@@ -86,9 +34,9 @@ script = ExtResource("1_j0pav")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 top_level = true
 material = SubResource("ShaderMaterial_3j2af")
-position = Vector2(0, -3)
-sprite_frames = SubResource("SpriteFrames_rp4n1")
-animation = &"walk_left"
+position = Vector2(70, 14)
+sprite_frames = SubResource("SpriteFrames_kubwg")
+speed_scale = 0.25
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_vu866")

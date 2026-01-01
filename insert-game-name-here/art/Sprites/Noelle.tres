@@ -1,0 +1,69 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://bo8lgpecdy4av"]
+
+[ext_resource type="Texture2D" uid="uid://c1sg7w67ak0yb" path="res://art/Noelle_Transparent_Sprites.png" id="1_y2whe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_capsj"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(0, 0, 1226, 1494)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b2afj"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(1226, 0, 1226, 1494)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i7uir"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(0, 1494, 1226, 1494)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k8uyu"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(1226, 1494, 1226, 1494)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2whe"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(1226, 0, 1226, 1494)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lkf1n"]
+atlas = ExtResource("1_y2whe")
+region = Rect2(1226, 1494, 1226, 1494)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_capsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b2afj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i7uir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k8uyu")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_capsj")
+}],
+"loop": true,
+"name": &"Silly",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2whe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lkf1n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y2whe")
+}],
+"loop": true,
+"name": &"Talking",
+"speed": 5.0
+}]

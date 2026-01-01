@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dx704gevwdem5"]
 
 [ext_resource type="Script" uid="uid://km4vya4fjuvw" path="res://scripts/novel_character.gd" id="1_liec8"]
-[ext_resource type="SpriteFrames" uid="uid://cwr550bkfxdye" path="res://art/Sprites/Chunni.tres" id="2_spe05"]
+[ext_resource type="SpriteFrames" uid="uid://xm0d72dbhh7o" path="res://art/Sprites/Matty.tres" id="2_spe05"]
 
 [node name="Novel_Character" type="Node2D"]
 script = ExtResource("1_liec8")

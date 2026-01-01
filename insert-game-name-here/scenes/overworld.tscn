@@ -3,8 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://pr6pn6ii20nc" path="res://scenes/Noelle.tscn" id="1_0h0lp"]
 [ext_resource type="PackedScene" uid="uid://b6hf07ey68uj2" path="res://scenes/Matty.tscn" id="1_uk7cc"]
 [ext_resource type="PackedScene" uid="uid://consdq00h2aqf" path="res://scenes/player.tscn" id="3_nxnoh"]
-[ext_resource type="AudioStream" uid="uid://dgrr2m8awooxs" path="res://art/Visual novel game music boss 1 sample 3.mp3" id="4_bo2cj"]
-[ext_resource type="Script" path="res://scripts/Fight_Music.gd" id="5_e7kyb"]
+[ext_resource type="AudioStream" uid="uid://dgrr2m8awooxs" path="res://music/Visual novel game music boss 1 sample 3.mp3" id="4_bo2cj"]
+[ext_resource type="Script" uid="uid://ok85lg4q8l4r" path="res://scripts/Fight_Music.gd" id="5_e7kyb"]
 [ext_resource type="PackedScene" uid="uid://2jwlara0y10e" path="res://scenes/math_teach.tscn" id="6_a0yfs"]
 
 [node name="overworld" type="Node2D"]

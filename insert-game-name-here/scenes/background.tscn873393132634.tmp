@@ -1,11 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://bv3sowdatq7yl"]
+[gd_scene load_steps=6 format=3 uid="uid://bv3sowdatq7yl"]
 
 [ext_resource type="Script" uid="uid://phipqb0b1p0s" path="res://scenes/visual_scene.gd" id="1_02cyb"]
 [ext_resource type="Texture2D" uid="uid://b57kil7dj24xp" path="res://art/dark classroom.jpg" id="1_d6tss"]
 [ext_resource type="PackedScene" uid="uid://dx704gevwdem5" path="res://scenes/Novel_Character.tscn" id="2_npmiw"]
 [ext_resource type="PackedScene" uid="uid://tfg5tm7pw1og" path="res://scenes/dialogue_ui.tscn" id="3_4anie"]
 [ext_resource type="AudioStream" uid="uid://dsmdobu3weph0" path="res://music/Classroom background.wav" id="5_wisxt"]
-[ext_resource type="Script" uid="uid://ok85lg4q8l4r" path="res://scripts/Fight_Music.gd" id="6_wax1t"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_02cyb")
@@ -52,4 +51,3 @@ scale = Vector2(0.045, 0.045)
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_wisxt")
 autoplay = true
-script = ExtResource("6_wax1t")
