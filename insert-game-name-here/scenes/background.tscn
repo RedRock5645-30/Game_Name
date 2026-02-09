@@ -7,7 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://dsmdobu3weph0" path="res://music/Classroom background.wav" id="5_wisxt"]
 [ext_resource type="Script" uid="uid://ok85lg4q8l4r" path="res://scripts/Fight_Music.gd" id="6_wax1t"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Visual_Novel" type="Node2D"]
 script = ExtResource("1_02cyb")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]

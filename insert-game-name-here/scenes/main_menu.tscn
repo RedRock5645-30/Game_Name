@@ -1,0 +1,99 @@
+[gd_scene load_steps=2 format=3 uid="uid://vph2bcjkimve"]
+
+[ext_resource type="Script" uid="uid://ctnvsw4kuugym" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+
+[node name="Main_Menu" type="Node2D"]
+script = ExtResource("1_l6cm7")
+
+[node name="ButtonManager" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+metadata/_edit_use_anchors_ = true
+
+[node name="StartBtn" type="Button" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.0
+offset_top = -390.0
+offset_right = 48.0
+offset_bottom = -359.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="LoadBtn" type="Button" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.0
+offset_top = -290.0
+offset_right = 48.0
+offset_bottom = -259.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Load Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="AcheiveBtn" type="Button" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -58.5
+offset_top = -15.5
+offset_right = 58.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Achievements"
+metadata/_edit_use_anchors_ = true
+
+[node name="SettingsBtn" type="Button" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -35.0
+offset_top = 84.5
+offset_right = 35.0
+offset_bottom = 115.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Settings"
+metadata/_edit_use_anchors_ = true
+
+[node name="QuitBtn" type="Button" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = 184.5
+offset_right = 46.0
+offset_bottom = 215.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Quit Game"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="ButtonManager/StartBtn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="ButtonManager/LoadBtn" to="." method="_on_load_btn_pressed"]
+[connection signal="pressed" from="ButtonManager/AcheiveBtn" to="." method="_on_acheive_btn_pressed"]
+[connection signal="pressed" from="ButtonManager/SettingsBtn" to="." method="_on_settings_btn_pressed"]
+[connection signal="pressed" from="ButtonManager/QuitBtn" to="." method="_on_quit_btn_pressed"]

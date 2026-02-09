@@ -18,9 +18,9 @@ const dialogLines : Array[String] = [
 #okay so saveLoad is basically the save file so anything saveLoad.VARIABLE_NAME is stuff that needs to be saved
 #If you need to look at global variables look up singletons
 func _ready() -> void:
-	if SaveLoad.saveFileData.dialogIndex == TYPE_NIL:
+	#if SaveLoad.saveFileData.dialogIndex == TYPE_NIL:
 		#for if smth bad happens it starts from beginning
-		SaveLoad.saveFileData.dialogIndex = 0
+		#SaveLoad.saveFileData.dialogIndex = 0
 	processCurLine()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

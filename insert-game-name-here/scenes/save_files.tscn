@@ -1,0 +1,69 @@
+[gd_scene load_steps=3 format=3 uid="uid://caeq04vqrnfx3"]
+
+[ext_resource type="Script" uid="uid://b835f7n5avoab" path="res://scripts/save_files.gd" id="1_nhfsj"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_nhfsj"]
+
+[node name="save_files" type="Node2D"]
+script = ExtResource("1_nhfsj")
+
+[node name="prePageBtn" type="Button" parent="."]
+offset_left = 22.0
+offset_top = 242.0
+offset_right = 110.0
+offset_bottom = 273.0
+text = "Previous Page"
+
+[node name="nextPageBtn" type="Button" parent="."]
+offset_left = 538.0
+offset_top = 247.0
+offset_right = 655.0
+offset_bottom = 278.0
+text = "Next Page"
+
+[node name="saveButton" type="TextureButton" parent="."]
+offset_left = 150.0
+offset_top = 81.0
+offset_right = 190.0
+offset_bottom = 121.0
+texture_normal = SubResource("ImageTexture_nhfsj")
+
+[node name="saveButton2" type="TextureButton" parent="."]
+offset_left = 303.0
+offset_top = 80.0
+offset_right = 400.0
+offset_bottom = 120.0
+
+[node name="saveButton4" type="TextureButton" parent="."]
+offset_left = 177.0
+offset_top = 171.0
+offset_right = 217.0
+offset_bottom = 211.0
+
+[node name="saveButton7" type="TextureButton" parent="."]
+offset_left = 329.0
+offset_top = 175.0
+offset_right = 369.0
+offset_bottom = 215.0
+
+[node name="saveButton3" type="TextureButton" parent="."]
+offset_left = 470.0
+offset_top = 76.0
+offset_right = 510.0
+offset_bottom = 119.0
+
+[node name="saveButton5" type="TextureButton" parent="."]
+offset_left = 328.0
+offset_top = 172.0
+offset_right = 368.0
+offset_bottom = 212.0
+
+[node name="saveButton6" type="TextureButton" parent="."]
+offset_left = 478.0
+offset_top = 171.0
+offset_right = 518.0
+offset_bottom = 211.0
+
+[connection signal="pressed" from="prePageBtn" to="." method="_on_pre_page_btn_pressed"]
+[connection signal="pressed" from="nextPageBtn" to="." method="_on_next_page_btn_pressed"]
+[connection signal="pressed" from="saveButton" to="." method="_on_save_button_pressed"]
