@@ -95,9 +95,9 @@ text = "Save File 5"
 
 [node name="saveButton6" type="TextureButton" parent="."]
 offset_left = 1600.0
-offset_top = 900.0
+offset_top = 600.0
 offset_right = 1640.0
-offset_bottom = 940.0
+offset_bottom = 640.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="saveButton6"]
@@ -110,3 +110,8 @@ text = "Save File 6"
 [connection signal="pressed" from="prePageBtn" to="." method="_on_pre_page_btn_pressed"]
 [connection signal="pressed" from="nextPageBtn" to="." method="_on_next_page_btn_pressed"]
 [connection signal="pressed" from="saveButton" to="." method="_on_save_button_pressed"]
+[connection signal="pressed" from="saveButton2" to="." method="_on_save_button_2_pressed"]
+[connection signal="pressed" from="saveButton4" to="." method="_on_save_button_4_pressed"]
+[connection signal="pressed" from="saveButton3" to="." method="_on_save_button_3_pressed"]
+[connection signal="pressed" from="saveButton5" to="." method="_on_save_button_5_pressed"]
+[connection signal="pressed" from="saveButton6" to="." method="_on_save_button_6_pressed"]

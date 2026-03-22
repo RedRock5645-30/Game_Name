@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://chipccdjp02xh" path="res://scripts/VN-related/visual_scene.gd" id="1_02cyb"]
 [ext_resource type="Texture2D" uid="uid://b57kil7dj24xp" path="res://art/Backgrounds/dark classroom.jpg" id="1_d6tss"]
 [ext_resource type="PackedScene" uid="uid://tfg5tm7pw1og" path="res://scenes/VN-related/dialogue_ui.tscn" id="3_4anie"]
-[ext_resource type="PackedScene" path="res://scenes/VN-related/Novel_Character.tscn" id="3_rs7wy"]
+[ext_resource type="PackedScene" uid="uid://djs7jjsljtk4v" path="res://scenes/VN-related/Novel_Character.tscn" id="3_rs7wy"]
 [ext_resource type="AudioStream" uid="uid://dsmdobu3weph0" path="res://music/Classroom music/Classroom background.wav" id="5_wisxt"]
 [ext_resource type="Script" uid="uid://ok85lg4q8l4r" path="res://scripts/Music/Fight_Music.gd" id="6_wax1t"]
 
