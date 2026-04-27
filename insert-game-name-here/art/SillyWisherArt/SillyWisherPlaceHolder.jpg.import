@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ktg6o1j2cppx"
-path="res://.godot/imported/WholePie.png-b467173deb5c592a6143665e2da1eb9f.ctex"
+uid="uid://cpdsf3n1cuy4l"
+path="res://.godot/imported/SillyWisherPlaceHolder.jpg-bc6286c40daa28d6e0c1184ada19555e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/WholePie.png"
-dest_files=["res://.godot/imported/WholePie.png-b467173deb5c592a6143665e2da1eb9f.ctex"]
+source_file="res://art/SillyWisherArt/SillyWisherPlaceHolder.jpg"
+dest_files=["res://.godot/imported/SillyWisherPlaceHolder.jpg-bc6286c40daa28d6e0c1184ada19555e.ctex"]
 
 [params]
 
