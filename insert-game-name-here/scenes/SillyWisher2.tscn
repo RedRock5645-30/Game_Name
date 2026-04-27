@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://dcfkpro4rtd2a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Wish Buttons" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 50
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/Wish Buttons"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 30
+
+[node name="Button" type="Button" parent="MarginContainer/Wish Buttons/HBoxContainer"]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Roll X1"
+
+[node name="Button2" type="Button" parent="MarginContainer/Wish Buttons/HBoxContainer"]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Roll X10"
+
+[node name="Control" type="Control" parent="MarginContainer/Wish Buttons"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="Button" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+text = "X"

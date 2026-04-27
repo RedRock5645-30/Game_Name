@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv1w44ugq316s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8vc3x"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(3, -17)
+shape = SubResource("RectangleShape2D_8vc3x")
+
+[node name="Camera2D" type="Camera2D" parent="."]
