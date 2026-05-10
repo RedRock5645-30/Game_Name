@@ -8,6 +8,8 @@ func _ready() ->void:
 
 func _on_start_btn_pressed() -> void:
 	#emit_signal("game_begin", saveFileNum)
+	TransitionScreen.transition()
+	await TransitionScreen.on_transition_finished
 	get_tree().change_scene_to_file("res://scenes/VN-related/background.tscn")
 
 

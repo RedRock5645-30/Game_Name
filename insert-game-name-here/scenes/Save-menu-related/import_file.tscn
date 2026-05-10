@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6ywrc2q60st5"]
+
+[ext_resource type="Script" uid="uid://bwubik4nw3jpc" path="res://scripts/Menu-related/import_file.gd" id="1_hg8gn"]
+
+[node name="import_file" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_hg8gn")
+
+[node name="FileDialog" type="FileDialog" parent="."]
+oversampling_override = 1.0
+title = "Open a File"
+initial_position = 2
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+root_subfolder = "C:/dowloads"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(10, 10)
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect"]
+clip_contents = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LoadImage" type="Button" parent="."]
+layout_mode = 0
+offset_left = 450.0
+offset_top = 300.0
+offset_right = 458.0
+offset_bottom = 308.0
+scale = Vector2(2, 2)
+text = "load image from file"
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_right = 740.0
+offset_bottom = 40.0
+scale = Vector2(10, 10)
+
+[node name="Label" type="Label" parent="ColorRect2"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="TextureRectWithDrop" type="TextureRect" parent="ColorRect2"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="pressed" from="LoadImage" to="." method="_on_load_image_pressed"]
