@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 class_name player
 const max_speed = 400
-const accel = 1500
+const accel = 1000
 var direction = "down"
 var curr_trail: Trail
 const max_points = 100

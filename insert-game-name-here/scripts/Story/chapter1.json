@@ -1,9 +1,416 @@
 [
-	"Chunni: Time to face the Fortress of Generic High",
-	"Chunni: Wading through the sea of corporeal figures and metal towers, I slowly approach the fated chamber enumerated with 113, the cage in which I am destined to spend my foreseeable days. A–",
-	"???: Ah! You must be the new student. I’m Mr. Sensei.",
-	"Chunni: Tch. What a loser.",
-	"Chunni: Huh, that's an interesting name…",
-	"Noelle:...Oopsie! Well, I’m here now aren’t I?",
-	"Matty: N-no, what? Invisibility potion ?...No it's just that I’m wearing my…"
+"*cool sprite* Chunni: Time to face the Fortress of Generic High",
+
+"%Running sound effects%",
+
+"Chunni (Thoughts): Wading through the sea of corporeal figures and metal towers, I slowly approach the fated chamber enumerated with 113, the cage in which I am destined to spend my foreseeable days. A–",
+
+"*No sprite* ???: Ah! You must be the new student.",
+
+"*No sprite* ???: I’m Mr. Sensei.", 
+
+"*Judging face* Chunni (Thoughts): Tch. What a loser. ",
+
+"Chunni: Huh, that's an interesting name…",
+
+"*neutral sprite* Mr. Sensei: Well that’s my name.",
+
+"Start with the procedure to enter a face that appears over the screen", 
+
+"System: Please enter a picture of a face. It can be anyone’s face. Yours, your friend’s, or even your worst enemy’s face.",
+
+"**Choose from files on computer or camera",
+
+"System: Are you certain?",
+
+"**If no go back to choosing files",
+
+"System: Super duper certain?",
+
+"If yes: System: Super! Let’s move on now!",
+"If no: System: Too Bad! You already said you’re certain. We’re moving on now. Haven’t got all day.",
+
+"#Slap a whiteboard drawing of a wanted poster of the person with the inserted face here. Fade to back.",
+
+"*Neutral sprite appears* Mr. Sensei: Come on in. By the way, I’m not your actual math teacher, just the sub for the morning.",
+"*Neutral sprite appears* Mr. Sensei: Mr. Matt Amatics is just feeling a little under the weather today. Come on over and introduce yourself. ",
+
+"Chunni: My name is…", 
+
+"Chunni: And my pronouns are…",
+
+"Mr. Sensei: Well then Chunni, please take a seat wherever you’d like.",
+
+"Chunni (Thoughts): Only seats at the front of the class remain. Woe is me! I suppose I’ll have to settle for living life on the edge.",
+
+"*Determined Sprite* Mr. Sensei: I know it’s only the first day of class, but Mr. Amatics left me a lot of material to go through for review from last year, so let’s get right into it!", 
+
+"Chunni (thoughts): That’s a lot more excitement than math deserves… Anyways, the Prism requires my attention. I unsheath my phone from my pocket, place it tactfully between the workbook and login to the world that awaits.", 
+
+"%Muddled chattering for a bit%",
+
+"*Noelle’s neutral sprite appears*",
+
+"Mr. Sensei: Noelle? You’re in this class? You know it started ten minutes ago right?",
+
+"*Silly face sprite* Noelle:...Oopsie! Well, I’m here now aren’t I?",
+
+"Chunni (thoughts): My fellow classmates appear to be averting their eyes… What could she have done to cause such fear?",
+
+"#Silly wisher-themed minigame here but its impossible to to git gud play three times then fade to black",
+
+"#fade back in with bell ringing sound effect",
+
+"Mr. Sensei: Chunni. I noticed you weren’t paying attention in class…",
+
+"Chunni: Oh uh… ",
+
+"Chunni (thoughts): Shoot. Am I gonna get struck down on my first day?",
+
+"Mr. Sensei: Even if you are a magical girl, you need your education. (he gestures to Chunni’s phone, which is still playing the video game.)",
+
+"*Eyes visibly lights up* Chunni: Wait! Mr. Sensei, you know about Restoration Prism? Have you played it? Who's your favorite character?",
+
+"Mr. Sensei: Oh no I’ve only briefly heard about it. But it did make me think, I actually supervise the anime club here at school. I was wondering if you were interested? It could be a great way to meet new friends with similar interests",
+
+"Chunni (thoughts): Tch, Restoration Prism is a video game, not an anime. Only an ignorant fool would confuse the two.",
+
+"Chunni: Yea, that would be cool.",
+
+"Mr. Sensei: Wonderful! It’s study hall right now, but I can show you the room so you’ll know where it is later.",
+
+"Chunni (thoughts): As they walk towards the room, there’s a commotion of kids going the other way. Someone calls out to Sensei, however Chunni can’t quite make out what they are saying over all the noise.", 
+
+"*Resigned Sprite* Mr. Sensei: What is with kids these days and fighting ghosts.",
+
+"Mr. Sensei: Sorry Chunni, the room is just around the corner, first one on your left. Matty should be in there. Just tell him you want to join.", 
+
+"*Neutral Sprite* Chunni: Alright. Thanks.", 
+
+"Chunni (thoughts): *Cool and dramatic sprite* This is only the start of my new journey at Generic High, yet it’s already been quite intense. Hopefully I will find a fellow Prism accomplice in the shadows of this mysterious club. But perhaps… it would be wise to investigate the surroundings before approaching.",
+
+"# give the player the option to walk around the school",
+
+"%Door Opening sound effect%",
+
+"Chunni opens the door to see a blond haired guy wearing his magical girl outfit  (CG)",
+
+"Chunni: Um hi?",
+
+"*Startled Sprite* Matty: You can see me?",
+
+"Chunni: Should I not be able to? Oh, are you trying out an invisibility potion? Sorry, but I don’t think it works…",
+
+"Matty: N-no, what? Invisibility potion ?...No it's just that I’m wearing my… ",
+
+"*Embrassed Sprite* Matty: I’m just–the outfit is supposed to–",
+
+"Chunni: Wait, is that a Restoration Prism Dreamer cosplay? ",
+
+"Matty: Huh? Well, I mean I guess it does kind of look like it–",
+
+"*Excited sprite* Chunni: Do you play the game? I’ve been playing for like the last five years. Started from the moment it came out. Actually I saw the Prism designs during the trailers and just knew. They are all sooo pretty. Dreamer is my favorite but I mostly main Siesta more now. Which she really doesn’t deserve by the way, because I have stacked over 100% crit rate on her and she still never crits. The audacity—Also I had to do non-stop fishing for a week just to get her weapon R5. Those stupid fish should just die already. After everything I do for her, Slumber still does more damage with her old 4* weapon. Honestly, I would go back to playing Dreamer, but they started tailoring bosses to new characters and using the old meta to fight new bosses just takes forever. They got way too powercrept. I use them sometimes for my commissions, though. Friendship exp, am I right? Also– (This part will keep forwarding on the screen without player input, goes off the box so you can’t even read all of it)",
+
+"*normal sprite* Matty (cuts them off): Wait, you’re the new kid right? Why are you here? Everyone is supposed to be in the study hall.",
+
+"Chunni: Oh, Mr. Sensei wanted to show me the room for the anime club. But he got busy with something, so he told me to come in first.", 
+
+"Matty: Wait, Mr. Sensei took you? Don’t tell me he said you’re a magical girl now—",
+
+"Chunni: Oh, he did! He also recognised Restoration Prism, which I really didn’t expect, but I guess looks can be deceiving.",
+
+"Chunni (thoughts): Though he also foolishly thought it was an anime.",
+
+"Matty: So here’s the thing about Mr. Sensei… we’re pretty sure he is a witch or something.",
+
+"Chunni (thoughts): Matty’s voice drops in volume",
+
+"Matty: I mean–you have only been here for a day, but weird things happen all the time around him.",
+
+"Chunni: Like what?",
+
+"Matty: If he says something, it just happens? Noelle and I haven’t quite figured out the logistics of it, but once he said something about the gym storage room being haunted and then well. There’s a ghost in there now.",
+
+"Matty: Not to freak you out or anything, but try to avoid that area if you can. Normal people can’t see it, but we can.",
+
+"Matty: So yeah, you’re a magical girl.",
+
+"*Startled Sprite* Chunni:  ",
+
+"*Neutral Sprite* Chunni: I humbly accept this obligation to defend the school from pain and devastation.",
+
+"Matty: You’re taking this better than expected.",
+
+"Chunni: Of course, only a total coward would shy away from this responsibility. So, how do I transform? Tikki spots on! ( touches random parts of their clothes to transform )",
+
+"Matty: Wait I’m pretty sure that’s copyrighted–",
+
+"#Chunni transforms into a magical girl",
+
+"Chunni: Wait, it worked? I’m actually a magical girl?",
+
+"Matty: You didn’t believe me?",
+
+"Chunni: I just assumed we were roleplaying…",
+
+"Chunni (thoughts): But I suppose normies wouldn’t get it",
+
+"Matty: Most people can’t see the weird things happening, probably because of the Mist.",
+
+"Chunni: Wait, that’s copyrighted! ",
+
+"Matty: Anyway, they can’t see us while we’re wearing these outfits either, so don’t be surprised if people don’t react to the stuff happening around us.",
+
+"*neutral sprite* Chunni (thoughts): I’m a magical girl, I’m a magical girl, I’m a magical girl, I’m a magical girl, this is awesome! I’m a magical girl, this is just like Restoration Prism.",
+
+"Matty: Ahem.",
+
+"Chunni: Wait, what did you say?",
+
+"*embarrassed sprite* Matty: I just realised that I never introduced myself. I’m Matty. He/Him. I’m a boy, by the way, despite the magical girl thing. (He gestures to himself.)",
+
+"Chunni: I’m Chunni. *Insert pronouns here.* So, who’s your main in Restoration?",
+
+"Matty: Oh, I like using–",
+
+"#Loud crash is heard in the distance, followed by screams.",
+
+"*Exasperated Sprite* Matty: Please don’t tell me that’s who I think it is… (takes off running)",
+
+"Chunni: Wait up!",
+
+"*Excited Sprite* Chunni (thoughts): I can’t believe this is happening!!!!! Wait, I need to lock in. Witch of love and justice, magical girl Chunni has arrived!",
+
+"%Insert running footsteps here*",
+
+"Noelle in CG: WHY. ISN’T. IT. WORKING? #She’s still punching the student",
+
+"Matty: Noelle, what are you doing! You aren’t wearing your magical girl outfit. Everyone can see you in the middle of the hallway. Are you crazy?",
+
+"Matty: Urmfmrrffmf—",
+
+"Matty grabs Noelle trying to lift her off the rando student. He is unsuccessful.",
+
+"Matty: Chunni, a little help please?",
+
+"Chunni: On it!",
+
+"#Jump into tutorial sequence here ( what’s in tutorial sequence?! ) Matty explains dodging and fighting.",
+
+"*accomplished sprite?* Matty: And… that should be the end of things here. Glad we didn’t need to peel anyone’s skin off.",
+
+"*Neutral sprite* Noelle: Yeah, that’d be a little messy.",
+
+"*excited sprite* Chunni: That was so much fun! It was just like Restoration Prism!",
+
+"Noelle: I know, right? Beating the shit out of small fries is always good stress relief.",
+
+"Noelle: Huh, wait, who are you again?",
+
+"Chunni: I’m Chunni. I just transferred today.",
+
+"Noelle: Oh, so you’re the newbie. Lucky you. I sure wish I became a magical girl on my first day of school. It would’ve made skipping class a whole lot easier.",
+
+"Matty: (Gives a weird look at Noelle.) This is Noelle, by the way. She’s also a magical girl.",
+
+"Chunni: Oh, so you’re the DPS of the group.",
+
+"Noelle: Duh.",
+
+"*Cool Sprite* Chunni: This. Is. So. Cool! Students by day. Protectors by night.",
+
+"Matty: Well, we do the exorcising by day too, but close enough, I suppose…",
+
+"Chunni: So what else do we do? How does the magic work? Wait, you said Mr. Sensei is the reason this weird stuff happens, right? Is he the final boss?",
+
+"Matty: Woah, one question at a time. We’re not sure about what we’re supposed to be doing, although I have some theories. Things seem to just happen, usually around Mr. Sensei. It doesn’t seem like he knows what’s going on, but you can never be too careful.",
+
+"Noelle: Which is why we’re stalking him!",
+
+"Matty: —Keeping an eye on him. We haven’t been able to find anything yet.",
+
+"Noelle: You know, I volunteered to beat him up and find out that way, but Matty keeps making a fuss whenever I bring it up.",
+
+"Matty: We aren’t beating more random people up.",
+
+"Noelle: You can just watch. If I did it, Mr Sensei wouldn’t be a problem anymore.",
+
+"*Annoyed Sprite* Matty: You just want a fight, don’t you?",
+
+"*Grinning Sprite* Noelle: Well, you’d have answers, and I’d get payback for the 34% he gave me on the assignment last week. Win-win.",
+
+"*Annoyed Sprite* Matty: So far, it's been just the two of us working together, but we’ll have you joining us now. I’m glad you’re excited about this.",
+
+"Chunni: Glad to be of service. Noelle, do you play Restoration Prism?",
+
+"Noelle: Of course I do, I’m AR 60.",
+
+"*Admiring Sprite* Chunni: Oh,can you carry me, please?",
+
+"*Offended Sprite* Matty: Wait, I can carry too. I’m also AR 60, and my Dreamer build is top 0.5%.",
+
+"Noelle: Dreamer isn’t even meta anymore, newgen.",
+
+"*Annoyed Sprite* Matty: Filthy meta gamer.",
+
+"Noelle: Anyways. Newbie, you like ghosts? Cuz there’s one I’m keeping as a pet in the gym’s supply closet.", 
+
+"Noelle: We can go check it out, so long as you promise not to scream my ears off like Matty did.",
+
+"Matty: We should really exorcise that thing. It’s not safe to leave it just hanging around the closet. What if it possesses one of our classmates?",
+
+"Noelle: Then I can just punch it out of them. What’s the big deal? It’s not like they remember what happens afterwards.",
+
+"Matty: Also, you can’t keep forgetting to wear your magical girl outfit when we fight. People can see you if you’re not wearing it.",
+
+"Noelle: People already think I'm crazy anyway. It’s not gonna make a difference.",
+
+"Matty: …",
+
+"Noelle: ugh fine.", 
+
+"#Magical girl transformation for Noelle! Cg",
+
+"Noelle: Anyways, the ghost?? We should get there and back before study hall is over, or Matty’s going to complain again.",
+
+"Chunni (thoughts): Noelle grabs me by the arm and dashes away. I hear the faint sound of Matty chasing after us.",
+
+"*Fade out and Fade in*",
+
+"*Cool Sprite* Chunni (thoughts): Noelle engages in combat with the lock, throttling its insides until the rusty metal gives a loud click. They are victorious. However, as the gates give way, there is no ghost in sight.",
+
+"[They get to the gym shed where Noelle picks the lock and opens the door to a dusty room that’s completely empty. There is no ghost in sight…] ENVIRONMENT SHOT",
+
+"*Excited sprite* Chunni: Where is it? Is it invisible?",
+
+"Matty: Well, to most people, yes, but we should be able to see it. ", 
+
+"*Silly sprite* Noelle: Oopsies~", 
+
+"*Annoyed sprite* Matty: When was the last time you checked on it?", 
+
+"Noelle: An hour ago? I got bored with math, so I came to try to feed it my homework–",
+
+"Matty: Then it can’t have gone that far yet. We can find it before it possesses someone. Come on!",
+
+"Chunni: How do we look for a ghost?",
+
+"Matty: Just check if anyone seems to be acting strangely.", 
+
+"Noelle: How did it even escape? The door was locked. I had to pick it open!", 
+
+"Matty: Aren’t ghosts incorporeal?", 
+
+"*Silly Sprite* Noelle: …",
+
+"Matty: I guess we’ll just shake everyone down. Excessive force is fine.",
+
+"Chunni: Let him cook!",
+
+"# Game Mechanic Start",
+
+"Chunni (Thoughts): We prowl the long, artificially lit hallway in search of people of interest, but only our footsteps echo back.",
+
+"Chunni: Where is everyone?",
+
+"Matty: Study hall.",
+
+"Noelle: You’re joking, right, Matty? Who on earth studies during study hall?",
+
+"Matty: I didn’t say they’d be studying.",
+
+"Math Teacher: You three stop right there!",
+
+"Chunni (thoughts): We stop right in our tracks, fearful of what powers this monster might hold.",
+
+"*Ashamed sprite* Matty: Mr. Amatics I can explain–",
+
+"Math Teacher: I am thoroughly disappointed, Matty. I thought you were better than this. Skipping class and running around the halls with a delinquent?",
+
+"Noelle: Who are u calling a delinquent u old fuck,",
+
+"Matty: …",
+
+"Math Teacher: You’re setting a bad example for our new student here. Go back to class.",
+
+"Matty: There’s something really important we need to do right now. I promise we’ll go back after–",
+
+"Math Teacher: No. You three will go back to class NOW. Go on.",
+
+"Matty: It’s really importa–",
+
+"Math Teacher: Matty, don’t make me repeat myself. Class, now. Or would you rather we have a chat in the office?",
+
+"Chunni (thoughts): I should try to back Matty up somehow. But how does one explain magical girls, ghosts, and demons to a mere teacher?",
+
+"*Ashamed Sprite* Matty: …",
+
+"Chunni (Thoughts): Matty begins to hesitantly approach the teacher. I am about to follow but notice that Noelle is standing her ground.",
+
+"*Neutral Sprite* Noelle:…",
+
+"Math Teacher: What do you think you’re doing…?",
+
+"*Neutral Sprite* Noelle:…",
+
+"Math Teacher: Perhaps the two of us should have a chat in the principal’s office instead. I’ve had enough of this rude behaviour.",
+
+"Noelle: Well, I’ve had enough of you.",
+
+"Noelle punches the teacher in the face. *POW* *CG here pls?",
+
+"*Happy sprite* Chunni: Hell yeah. I think that crit.",
+
+"*Happy Sprite* Matty: Oof. ",
+
+"Chunni: So, the teacher’s definitely the ghost, right?",
+
+"*Silly Sprite* Noelle: Happy little accident.",
+
+"*Smiley neutral sprite* Matty: Pity– I mean, I’m glad the damages weren’t permanent…",
+
+"Chunni: Is it just me, or is it getting stronger? What’s going on?",
+
+"Noelle: Guess I’m not punching hard enough.",
+
+"*Smiley sprite* Matty: I don’t think that’s the problem, but punch harder anyway.",
+
+"Math Teacher: It is too late! Why are you all so eager to stop me? My minions and I will help you all become the best versions of yourselves! By allowing my ghosts to help you, you will all become more studious, more productive, and more hard working! Studying for 25 hours a day might seem difficult right now, but it won’t be once you let my minions give you a hand! Imagine acing every test, every assignment… wouldn’t it be a dream come true? What do you guys think?",
+
+"*Neutral sprite* Matty: …",
+
+"Noelle: Over Matty’s dead body.",
+
+"Chunni: If the ghost possessing me is doing tests and assignments, doesn’t that kind of go against the whole point of doing homework in the first place?",
+
+"Math Teacher: ARE YOU TALKING BACK TO ME??!!! ",
+
+"Math Teacher: No matter. I have no reason to keep entertaining this discussion. You all will see very soon the paradise I intend to build. I need to get back to my office and get to marking all the new worksheets. MWUAHAHAHA! We shall meet at Pi time.",
+
+"Chunni: Hey, fuck you!",
+
+"#Two possessed students jump in front of the teacher and engage in combat.  The teacher gets away.",
+
+"#After the fight, the school is filled with possessed students to fight. The math teacher is to be found by teleporting in through a poster with ‘pi time’ written on it. They decrease the math teacher’s power with each one that’s defeated. The magical girls fight the math teacher and defeat it.",
+
+"Matty + Chunni: Release everyone!",
+
+"Demon, taking off its human teacher skin: Children, it doesn’t have to be like this. Surely you can see the benefits of my proposal. I can help you all succeed. You’d never make it out in the real world with the way you are right now. Just think about it.",
+
+"Demon: You’re all clueless children with zero experience actually living. In two or three years, you’ll be thrown out there in the wild by yourselves. What are you going to do? All you have to do is follow my lead. Together we can take over the world. Doesn’t my vision of the future just sound absolutely thrilling? ",
+
+"Chunni: What’s my salary?",
+
+"Demon: Huh?",
+
+"Chunni: Look, they keep putting characters I want in the same patch, and these pulls won’t buy themselves.", 
+
+"Demon : What?", 
+
+"Chunni: So, is that a no then? Time to get exorcized, demon!", 
+
+"#TREVOR WILL MAKE SOMETHING GAME HERE FOR EXOCRISMMS", 
+
+"*Whistling sprite* Mr. Sensei: Ah, what a normal peaceful day."
+
 ]

@@ -24,12 +24,14 @@ animations = [{
 radius = 60.00833
 
 [node name="Noelle" type="CharacterBody2D"]
+scale = Vector2(0.75, 0.75)
 script = ExtResource("1_j0pav")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 top_level = true
 material = SubResource("ShaderMaterial_3j2af")
 position = Vector2(70, 14)
+scale = Vector2(0.6, 0.6)
 sprite_frames = SubResource("SpriteFrames_kubwg")
 speed_scale = 0.25
 
