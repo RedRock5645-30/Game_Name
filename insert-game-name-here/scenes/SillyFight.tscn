@@ -1,15 +1,62 @@
 [gd_scene load_steps=2 format=3 uid="uid://bv1w44ugq316s"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_8vc3x"]
+[ext_resource type="Script" uid="uid://csm8llsvrtwu" path="res://scripts/SillyWisherLogic.gd" id="1_h6hn5"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 1.0
+offset_right = 6.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_h6hn5")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="EnemyButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 575.0
+offset_top = -7.0
+offset_right = 1361.0
+offset_bottom = 1074.0
+text = "Enemy"
 
-[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+[node name="CoinLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 692.0
+offset_top = 147.0
+offset_right = 849.0
+offset_bottom = 240.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(3, -17)
-shape = SubResource("RectangleShape2D_8vc3x")
+[node name="DamageLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1023.0
+offset_top = 171.0
+offset_right = 1180.0
+offset_bottom = 264.0
+
+[node name="upgradeDamage" type="Button" parent="."]
+layout_mode = 0
+offset_left = 666.0
+offset_top = 755.0
+offset_right = 754.0
+offset_bottom = 872.0
+
+[node name="upgradeAuto" type="Button" parent="."]
+layout_mode = 0
+offset_left = 668.0
+offset_top = 897.0
+offset_right = 756.0
+offset_bottom = 1014.0
+
+[node name="AutoTimer" type="Timer" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(965, 535)
+
+[connection signal="pressed" from="EnemyButton" to="." method="_on_enemy_button_pressed"]
+[connection signal="pressed" from="upgradeDamage" to="." method="_on_upgrade_damage_pressed"]
+[connection signal="pressed" from="upgradeAuto" to="." method="_on_upgrade_auto_pressed"]
+[connection signal="timeout" from="AutoTimer" to="." method="_on_auto_timer_timeout"]

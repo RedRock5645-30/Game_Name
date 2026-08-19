@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://chy5biv8xf3jn"]
 
-[ext_resource type="Texture2D" uid="uid://cpdsf3n1cuy4l" path="res://art/SillyWisherArt/SillyWisherPlaceHolder.jpg" id="1_v306h"]
+[ext_resource type="Texture2D" uid="uid://6h5ly64yay1m" path="res://art/SillyWisherArt/IMG_1502.png" id="1_v306h"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -12,11 +12,11 @@ grow_vertical = 2
 metadata/_edit_vertical_guides_ = [-89.0]
 
 [node name="SillyWisherPlaceHolder" type="Sprite2D" parent="."]
-position = Vector2(965, 541)
-scale = Vector2(0.8, 1)
+position = Vector2(955, 540)
+scale = Vector2(0.48068672, 0.48473966)
 texture = ExtResource("1_v306h")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="Wish Buttons" type="MarginContainer" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,12 +24,25 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Wish Buttons"]
 layout_mode = 2
-size_flags_horizontal = 8
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="Wish Buttons/VBoxContainer"]
+custom_minimum_size = Vector2(50, 700)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Wish Buttons/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
 theme_override_constants/separation = 10
 
-[node name="Button" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="Wish Buttons/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Wish Buttons/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(350, 150)
 layout_mode = 2
 size_flags_horizontal = 8
@@ -37,7 +50,7 @@ size_flags_vertical = 8
 theme_override_font_sizes/font_size = 50
 text = "Wish X1"
 
-[node name="Button2" type="Button" parent="MarginContainer/HBoxContainer"]
+[node name="Button2" type="Button" parent="Wish Buttons/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(350, 150)
 layout_mode = 2
 size_flags_horizontal = 8
